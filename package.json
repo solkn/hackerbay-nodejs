@@ -1,0 +1,36 @@
+{
+  "name": "hackerbay-nodejs",
+  "version": "1.0.0",
+  "description": "hackerbay-nodejs challenge for full stack developer position",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "chai": "^4.3.6",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8",
+    "multer": "^1.4.4",
+    "path": "^0.12.7",
+    "sharp": "^0.30.3",
+    "sinon": "^13.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Solomon",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
